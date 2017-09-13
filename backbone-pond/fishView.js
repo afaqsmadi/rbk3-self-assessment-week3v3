@@ -13,7 +13,7 @@ var FishView = Backbone.View.extend({
     return this;
   },
   
-  initialize: function() {
+  initialize: function(){
     this.render();
     this.model.on('toggle:description', this.render, this);
   },
